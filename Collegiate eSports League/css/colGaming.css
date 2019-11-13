@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* CSS Document */
+
+p {
+	font-size: 48px;
+	padding-top: 200px;
+	color: #FFFFFF;
+	text-align: center;
+	transition: 1s;
+}
+
+body{
+	background-color: #FF0000;
+}
