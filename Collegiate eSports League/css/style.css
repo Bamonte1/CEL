@@ -1,5 +1,6 @@
-body {
+html, body {
     background-color: #636363;
+	height: 100%;
 }
 
 h1 {
@@ -8,9 +9,16 @@ h1 {
     text-align: center;
 }
 
-p {
+/* p {
     font-size: 15px;
     font-family: 'Abel', sans-serif;
+}
+*/
+
+p {
+	font-family: 'Abel', sans-serif;
+    font-size: 28px;
+    text-align: center;
 }
 
 .logoColLeft {
@@ -62,7 +70,7 @@ p {
 }
 
 .nav {
-    height: 100px;
+    height: auto;
     margin-top: 200px;
     background-color: #ADADAD;
     border: 2px solid black;
@@ -70,15 +78,17 @@ p {
 
 .navBar {
     margin-top: -5px;
-    padding-left: 100px;
+    padding-left: 10px;
+	padding-right: 10px;
     letter-spacing: 5px;
 }
 
-.nav p {
+/* .nav p {
     font-family: 'Abel', sans-serif;
     font-size: 28px;
     text-align: center;
 }
+*/
 
 .nav a {
     text-decoration: none;
@@ -92,15 +102,15 @@ p {
 }
 
 .welcome {
-    width: 50%;
-    height: 425px;
+    width: auto;
+    height: auto;
     margin: 0 auto;
     border: 2px solid black;
 }
 
 .winners {
-    width: 50%;
-    height: 300px;
+    width: auto;
+    height: auto;
     margin: 0 auto;
     border: 2px solid black;
 }
@@ -110,10 +120,10 @@ p {
 }
 
 footer {
-    height: 150px;
-    width: 100%;
+    height: auto;
+    width: auto;
     background-color: #FF0000;
-    margin-top: 1850px;
+    /* margin-top: 1850px; */
     border: 2px solid black;
 }
 
